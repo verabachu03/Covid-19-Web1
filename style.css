@@ -1,0 +1,83 @@
+.menu li{
+    padding:20px;
+    font-size:large;
+    list-style: none;
+    color:white;
+}
+/* .menu li {
+    display:flex;
+    padding:20px;
+    background:lightblue;
+    border:3px solid black;
+} */
+.menu
+{
+    display:flex;
+    padding:20px;
+    background:black;
+    border:3px solid black;
+    margin:20px;
+    font-size:large;
+    list-style: none;
+
+}
+.menu li a
+{
+    color:white;
+    padding:10px;
+    border:5px solid white;
+}
+.menu li a:hover
+{
+    color:blue;
+    border:5px solid white;
+    background-color:yellow;
+    font-size: 25px;
+}
+.heading
+{
+    background-image:url("https://health.maryland.gov/covid/PublishingImages/What%20is%20COVID-19_%20V1.png");
+    height:100px;
+    padding:150px;
+    color:white;
+}
+.heading h1
+{
+    font-size:50px;
+}
+.stats
+{
+  text-align: center; 
+    list-style: none;
+}
+.table
+{
+    text-align:center;
+    align-items: center;
+}
+ol
+{
+    list-style:none;
+
+}
+/* .img1
+{
+    display:flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    margin: 40px;
+} */
+.div1
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.vid1
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
